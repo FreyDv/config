@@ -23,7 +23,7 @@
   "homepage": "https://github.com/FreyDv/config#readme",
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.github.com/dfri/config"
+    "registry": "https://npm.pkg.github.com"
   },
   "release": {
     "branches": [
