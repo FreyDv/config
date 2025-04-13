@@ -1,0 +1,56 @@
+{
+  "name": "@dfri/config",
+  "version": "1.0.0",
+  "description": "Latest common config for prettier eslint typescript and ect.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FreyDv/config.git"
+  },
+  "keywords": [
+    "configuration",
+    "shared"
+  ],
+  "author": "DANIIL FREI",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/FreyDv/config/issues"
+  },
+  "homepage": "https://github.com/FreyDv/config#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/dfri/config"
+  },
+  "release": {
+    "branches": [
+      "master",
+      {
+        "name": "next",
+        "prerelease": true
+      }
+    ]
+  },
+  "dependencies": {
+    "@eslint/js": "^9.24.0",
+    "@tsconfig/node22": "^22.0.1",
+    "eslint": "^9.24.0",
+    "eslint-plugin-jest": "^28.11.0",
+    "eslint-plugin-prettier": "^5.2.6",
+    "eslint-plugin-spellcheck": "^0.0.20",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.29.1"
+  },
+  "devDependencies": {
+    "semantic-release": "^24.2.3"
+  },
+  "files": [
+    "README.md",
+    "tsconfig.json",
+    "eslint.config.mjs",
+    "prettier.config.mjs"
+  ]
+}

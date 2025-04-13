@@ -1,0 +1,48 @@
+// https://github.com/tsconfig/bases/tree/main/bases
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node 23",
+  "_version": "23.0.0",
+  //https://www.typescriptlang.org/tsconfig/#compilerOptions
+  "compilerOptions": {
+    "target": "es2023",
+    "outDir": "dist",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "incremental": true,
+    "declaration": true,
+    "newLine": "lf",
+    "strict": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedSideEffectImports": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "verbatimModuleSyntax": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    // Above Nest below any:
+    "isolatedDeclarations": false,
+    "noUncheckedIndexedAccess": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "strictBindCallApply": true,
+    "moduleDetection": "force",
+    "types": [],
+    "allowSyntheticDefaultImports": true,
+    //    "erasableSyntaxOnly": true,
+    "exactOptionalPropertyTypes": true
+  },
+  "include": ["src/**/*", "test/**/*", "bin/**/*"],
+  "exclude": ["node_modules"]
+}
