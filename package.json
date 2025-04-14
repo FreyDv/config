@@ -1,8 +1,7 @@
 {
   "name": "@dfri/config",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "Latest common config for prettier eslint typescript and ect.",
-  "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,17 +21,7 @@
   },
   "homepage": "https://github.com/FreyDv/config#readme",
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com/dfri/config"
-  },
-  "release": {
-    "branches": [
-      "master",
-      {
-        "name": "next",
-        "prerelease": true
-      }
-    ]
+    "access": "public"
   },
   "dependencies": {
     "@eslint/js": "^9.24.0",
